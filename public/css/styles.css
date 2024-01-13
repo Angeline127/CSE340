@@ -4,3 +4,128 @@
 *:after {
   box-sizing: border-box;
 }
+
+/**** HEADER ****/
+a{
+ 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  
+}
+header a{
+  color: black;
+  text-decoration: none;
+}
+.siteName{
+  font-size:30px;
+  font-weight: 800;
+  
+  
+}
+#tools{
+  text-align: right;
+  font-weight: 800;
+  
+  
+}
+
+
+/**** NAVBAR ****/
+nav{
+  background-color: black;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+ 
+nav ul li{
+  color: rgb(255, 255, 255);
+ list-style-type: none;
+}
+
+/**** SECTION ONE ****/
+.main-one, .main-two{
+  display: flex;
+}
+
+button{
+  background-color: blue;
+  color: black;
+  width: 90%;
+  height: 15%;
+  justify-content: center;
+}
+#one{
+  margin-left: 2%;
+
+  color: aqua;
+  background-color: rgb(140, 150, 158);
+}
+
+#two{
+  margin-right: 30%;
+}
+.four ul li{
+ width: 50%;
+  padding-bottom: 50px;
+  justify-content: center;
+
+}
+/**** SECTION TWO ****/
+.container{
+  justify-content: center;
+
+
+
+}
+.grid-box{
+  grid-template-columns: auto auto;
+  display: grid;
+  gap: 20px;
+  
+}
+
+.grid{
+  
+  padding: 40px;
+  background-color: aquamarine;
+
+
+}
+#text{
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+/**** FOOTER ****/
+
+@media screen and (min-width: 600px) {
+  body{
+    max-width: 1080px;
+    margin: auto;
+  }
+  .main-two{
+
+    flex-direction: row;
+  }
+
+  #three{
+    width: 50%;
+  }
+
+  .four{
+    width: 50%;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+
+}
