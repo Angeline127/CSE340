@@ -66,7 +66,11 @@ nav ul li{
 }
 
 .main-two {
+  justify-content: center;
+  margin-top: 50px;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
+  flex-basis: fit-content;
 }
 
 button{
@@ -94,6 +98,7 @@ button{
   width: 100%;
   height: auto;
 }
+
 
 .four ul li{
  width: 50%;
@@ -123,28 +128,3 @@ button{
  font-weight: lighter;
 }
 /**** FOOTER ****/
-
-
-
-/*@media screen and (min-width: 600px) {*/
-/*  body{*/
-/*    margin: auto;*/
-/*  }*/
-/* */
-/*  .main-two{*/
-/*    flex-direction: row;*/
-/*  }*/
-
-/*  #three{*/
-/*    width: 50%;*/
-/*    */
-/*  }*/
-
-/*  .four{*/
-/*    width: 50%;*/
-/*    margin-top: 0;*/
-/*    margin-left: 20px;*/
-/*  }*/
-
-
-/*}*/
