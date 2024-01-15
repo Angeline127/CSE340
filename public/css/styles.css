@@ -8,7 +8,6 @@
 
 /**** HEADER ****/
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -45,6 +44,7 @@ header a{
 /**** NAVBAR ****/
 nav{
   background-color: rgb(52, 51, 51);
+  box-sizing: border-box;
 }
 
 nav ul{
@@ -65,23 +65,36 @@ nav ul li{
   display: flex;
 }
 
+.main-two {
+  flex-wrap: wrap;
+}
+
 button{
-  background-color:  rgb(174, 182, 182);
+  background-color: rgb(127, 127, 231);
   color: rgb(8, 8, 8);
   width: 90%;
-  height: 15%;
+  font-weight: bold;
+  padding: 10px 0;
   justify-content: center;
 }
 #one{
   margin-left: 2%;
   text-align: center;
-  color: rgb(0, 0, 0);
-  background-color: rgb(226, 235, 235);
+  color: #3131e3;
+  background-color: rgba(226, 235, 235, 0.42);
+  position: absolute;
 }
 
 #two{
-  margin-right: 30%;
+  margin: 0 auto;
+  overflow: hidden;
 }
+
+#two img {
+  width: 100%;
+  height: auto;
+}
+
 .four ul li{
  width: 50%;
   padding-bottom: 50px;
@@ -96,13 +109,11 @@ button{
   grid-template-columns: auto auto;
   display: grid;
   gap: 20px;
-  
 }
 
 .grid{
   padding: 40px;
   background-color: rgb(226, 235, 235);
-
 }
 #text{
   margin-bottom: 10px;
@@ -113,26 +124,27 @@ button{
 }
 /**** FOOTER ****/
 
-@media screen and (min-width: 600px) {
-  body{
-    max-width: 1080px;
-    margin: auto;
-  }
- 
-  .main-two{
-    flex-direction: row;
-  }
-
-  #three{
-    width: 50%;
-    
-  }
-
-  .four{
-    width: 50%;
-    margin-top: 0;
-    margin-left: 20px;
-  }
 
 
-}
+/*@media screen and (min-width: 600px) {*/
+/*  body{*/
+/*    margin: auto;*/
+/*  }*/
+/* */
+/*  .main-two{*/
+/*    flex-direction: row;*/
+/*  }*/
+
+/*  #three{*/
+/*    width: 50%;*/
+/*    */
+/*  }*/
+
+/*  .four{*/
+/*    width: 50%;*/
+/*    margin-top: 0;*/
+/*    margin-left: 20px;*/
+/*  }*/
+
+
+/*}*/
