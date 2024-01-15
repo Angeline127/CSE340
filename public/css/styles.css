@@ -66,9 +66,11 @@ nav ul li{
 }
 
 .main-two {
+  justify-content: center;
   margin-top: 50px;
   flex-wrap: wrap;
   flex-direction: row-reverse;
+  flex-basis: fit-content;
 }
 
 button{
@@ -96,7 +98,6 @@ button{
   width: 100%;
   height: auto;
 }
-
 
 
 .four ul li{
