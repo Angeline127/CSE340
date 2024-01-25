@@ -9,9 +9,15 @@ router.use("/js", express.static(__dirname + "public/js"));
 router.use("/images", express.static(__dirname + "public/images"));
 
 
-router.get("/", (req, res)=>{
-    res.render("partials/index",{title:'home'})
-  });
+//Index route
+router.get("/", function(req, res){
+  res.render("index", {title: "Home"})
+})
+
+
+// router.get("/", (req, res)=>{
+//     res.render("partials/index",{title:'home'})
+//   });
 
 
 
