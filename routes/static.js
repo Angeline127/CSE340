@@ -9,10 +9,10 @@ router.use("/js", express.static(__dirname + "public/js"));
 router.use("/images", express.static(__dirname + "public/images"));
 
 
-//Index route
-router.get("/", function(req, res){
-  res.render("index", {title: "Home"})
-})
+// //Index route
+// router.get("/", function(req, res){
+//   res.render("index", {title: "Home"})
+// })
 
 
 // router.get("/", (req, res)=>{
